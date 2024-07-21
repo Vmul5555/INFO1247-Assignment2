@@ -1,0 +1,194 @@
+/* Name: Vaishnavi Reddy Mula
+   Student Number: 8975555
+   */
+
+   h1, h2, h3 {
+    color: navy;
+
+   }
+
+   p{
+    font-size: 16px;
+   }
+
+   .highlight {
+       background-color: yellow;
+   }
+
+   #biography {
+    padding: 20px;
+   }
+
+   .article p {
+    line-height: 1.6;
+   }
+
+   .article > p {
+    margin-bottom: 15px;
+   }
+
+   html {
+    font: 20px/1.5 'Arial', sans-serif;
+    background-color: #f0f0f0;
+   }
+
+   body {
+       max-width: 1200px;
+       margin: auto;
+       padding: 1rem;
+       border: 1rem solid #ccc;
+   }
+
+   main {
+       float: left;
+       width: 70%;
+   }
+
+   #aside {
+         float: right;
+         width: 30%;
+   }
+
+   footer {
+        clear: both;
+   }
+
+   .biography {
+       float: left;
+       width: 60%;
+    
+   }
+
+   .image-section {
+       float: right;
+       width: 40%;
+   }
+
+   .next-section {
+        clear:both;
+   }
+
+   h1 {
+        font-size: 3rem;
+   }
+
+   footer {
+       font-size: 0.8rem;
+       background: linear-gradient(to right, #ff7e5f, #feb47b);
+   }
+
+   h2 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Geogia', serif;
+    color: #333;
+    text-align: center;
+   }
+
+   blockquote {
+        font-variant: small-caps;
+        font-style: italic;
+        font-weight: bold;
+        font-family: 'Times News Roman', serif;
+        color: #555;
+        border: 1px solid #999;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+        padding: 1rem;
+        margin: 1rem 0;
+   }
+
+   figure {
+    border: 0.1rem solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    margin: 1rem 0;
+   }
+
+   img {
+       border-radius: 10px;
+       max-width: 100%;
+   }
+
+   figcaption {
+        font-variant: small-caps;
+        font-style: italic;
+        font-weight: bold;
+        font-family: 'Georgia', serif;
+        color: #666;
+        text-align: center;
+        margin-top: 0.5rem;
+   }
+
+   iframe {
+       border: 0.2rem solid #ccc;
+       border-radius: 10px;
+   }
+   aside h2 {
+        font-variant: small-caps;
+        color: #444;
+        text-align: center;
+   }
+
+   aside ul {
+        list-style: none;
+        padding: 0;
+   }
+
+   aside li a {
+       text-decoration: none;
+       color: #0056b3;
+       line-height: 2;
+   }
+
+   aside li a:hover {
+        color: #d9534f;
+   }
+
+   aside form ladel {
+       color: #333;
+       font-variant: small-caps;
+       font-weight: bold;
+       display: block;
+       margin-bottom: 0.5rem;
+   }
+
+   aside form input, aside form textarea, aside form select {
+        width: 100%;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+   }
+
+   aside from input[type="submit"] {
+       background-color: #007bff;
+       color: #fff;
+       border: none;
+       cursor: pointer;
+   }
+
+   aside form input[type="submit"]:hover {
+        background-color: #0056b3;
+   }
+
+   @media (max-width: 768px) {
+        html {
+            font-size: 18px;
+        }
+
+    #main, #aside {
+        float: none;
+        width: 100%;
+    }
+    
+    body {
+        padding: 0.5rem;
+    }
+
+    .biography, .image-section {
+        float: none;
+        width: 100%;
+    }
+   }
